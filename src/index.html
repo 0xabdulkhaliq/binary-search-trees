@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Basic META Tags -->
+    <meta
+      name="description"
+      content="Binary Search Trees Project - A demonstration of binary search tree operations."
+    />
+    <meta
+      name="keywords"
+      content="0xabdulkhalid, binary search tree, BST, data structure, sorting, algorithms, programming"
+    />
+    <meta name="author" content="0xabdulkhalid" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#FAFAFA " />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FAFAFA " />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Binary Search Trees Project"
+    />
+
+    <!-- Open Graph META Tags for social sharing -->
+    <meta property="og:title" content="Binary Search Trees Project" />
+    <meta
+      property="og:description"
+      content="A demonstration of binary search tree operations."
+    />
+    <meta property="og:image" content="your-image-url.jpg" />
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card META Tags for Twitter sharing -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@0xabdulkhalid" />
+    <meta name="twitter:title" content="Binary Search Trees Project" />
+    <meta
+      name="twitter:description"
+      content="A demonstration of binary search tree operations."
+    />
+    <meta name="twitter:image" content="" />
+
+    <title>Binary Search Trees</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
+      />
+    </noscript>
+    <link
+      rel="icon"
+      href="./images/favicon.svg"
+      sizes="any"
+      type="image/svg+xml"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Binary Search Trees</h1>
+
+      <button
+        class="header__theme-toggle"
+        id="theme-toggle"
+        title="Toggles light & dark"
+        aria-label="auto"
+        aria-live="polite"
+        tabindex="0"
+      ></button>
+
+      <audio
+        src="./audio/audio_light-on.mp3"
+        class="header__switch--on"
+      ></audio>
+      <audio
+        src="./audio/audio_light-off.mp3"
+        class="header__switch--off"
+      ></audio>
+    </header>
+
+    <main>
+      <form action="">
+        <fieldset>
+          <h2>Input</h2>
+
+          <label for="numbers">
+            Enter numbers followed by spaces :
+            <input
+              type="text"
+              id="numbers"
+              name="numbers"
+              placeholder="7 5 4 1 2 6 8 9 7 2 11 45 98 7147 890 45"
+              pattern="^[0-9\s]+$"
+            />
+
+            <button class="label__action-btn"></button>
+          </label>
+
+          <label for="insert-number">
+            Insert number :
+            <input
+              type="text"
+              id="insert-number"
+              name="insert-number"
+              pattern="\d+"
+            />
+
+            <button class="label__action-btn"></button>
+          </label>
+
+          <label for="remove-number">
+            Remove Number :
+            <input
+              type="text"
+              id="remove-number"
+              name="remove-number"
+              pattern="\d+"
+            />
+
+            <button class="label__action-btn"></button>
+          </label>
+
+          <label for="find-number">
+            Find & View Depth of a Number
+            <input
+              type="text"
+              name="find-number"
+              id="find-number"
+              pattern="\d+"
+            />
+
+            <button class="label__action-btn"></button>
+          </label>
+
+          <label for="rebalance-tree"
+            >Rebalance Tree
+            <button id="rebalance-tree">Rebalance</button>
+          </label>
+        </fieldset>
+
+        <div>
+          <h2>Output</h2>
+          <div class="main__output"></div>
+        </div>
+
+        <div class="main__information">
+          <h2>Information</h2>
+          <p>
+            <span>Height:</span>
+            <span class="information__height"></span>
+          </p>
+          <p>
+            <span>Balanced:</span>
+            <span class="information__is-balanced"></span>
+          </p>
+
+          <p>
+            <span>Level-Order:</span>
+            <span class="information__lvl-order"></span>
+          </p>
+          <p>
+            <span>Pre-Order:</span>
+            <span class="information__pre-order"></span>
+          </p>
+          <p>
+            <span>In-Order:</span>
+            <span class="information__in-order"></span>
+          </p>
+          <p>
+            <span>Post-Order:</span>
+            <span class="information__post-order"></span>
+          </p>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      &copy; 2023 Copyright -
+      <a
+        href="https://github.com/0xabdulkhalid"
+        target="_blank"
+        class="footer__link"
+        rel="noopener noreferrer"
+        aria-describedby="Abdul khalid's Github profile"
+        >0xabdulkhalid
+      </a>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

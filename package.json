@@ -1,0 +1,27 @@
+{
+  "name": "binary-search-trees",
+  "version": "1.0.0",
+  "description": "An interactive demonstration of binary search tree operations.",
+  "main": "index.js",
+  "scripts": {
+    "bundle-js": "npx webpack",
+    "minify-html": "npx html-minifier --input-dir src --output-dir dist --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --file-ext html",
+    "minify-css": "npx css-minify -d ./src -o ./dist && mv ./dist/styles.min.css ./dist/styles.css",
+    "move-images": "mv ./src/images ./dist/images",
+    "move-audios": "mv ./src/audio ./dist/audio",
+    "build": "npm run bundle-js && npm run minify-html && npm run minify-css && npm run move-images & npm run move-audio"
+  },
+  "keywords": ["data structure", "sorting", "algorithms", "programming"],
+  "author": "0xabdulkhalid",
+  "license": "MIT",
+  "devDependencies": {
+    "css-minify": "^2.0.0",
+    "eslint": "^8.48.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "html-minifier": "^4.0.0",
+    "prettier": "^3.0.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
