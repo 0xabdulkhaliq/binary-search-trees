@@ -13,7 +13,7 @@ function loadTheme(theme) {
 function setBrowserBarTheme(state) {
   const theme = document.querySelector('[name="theme-color"]')
 
-  state === "on" ? (theme.content = "#FAFAFA") : (theme.content = "#161722")
+  state === "on" ? (theme.content = "#CACDE8") : (theme.content = "#161722")
 }
 
 function themeSwitch(theme) {
