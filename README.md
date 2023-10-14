@@ -1,14 +1,27 @@
-<div align='center'>
-<img src='./design/preview.webp' alt='Mobile Preview'>
+<br>
+
+<div align="center">
+<img src="./design/logo.svg" alt="" width="250">
+<br>
+<br>
+
+<h3>❝Experience binary search trees in action with interactive demonstrations❞</h3>
+
+<br>
+  <p>
+    <a href="https://binary-search-trees.vercel.app/">View Demo</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/0xabdulkhalid/binary-search-trees/issues">Report Bug</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/0xabdulkhalid/binary-search-trees/issues">Request Feature</a>
+  </p>
 </div>
 
 <br>
 
-# Binary Search Trees (BST) Project
-
-- Welcome to the Binary Search Trees (BST) Project, a practical and interactive demonstration of binary search tree operations.
-
-- Whether you're a student learning about data structures or a developer looking to explore BST algorithms, this project is designed to help you understand and experiment with BSTs in a hands-on way.
+<div align='center'>
+<img src='./design/preview.webp' alt='Mobile Preview'>
+</div>
 
 <br>
 
