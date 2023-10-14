@@ -7,7 +7,7 @@
     "bundle-js": "npx webpack",
     "minify-html": "npx html-minifier --input-dir src --output-dir dist --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --file-ext html",
     "minify-css": "npx css-minify -d ./src -o ./dist && mv ./dist/styles.min.css ./dist/styles.css",
-    "move-images": "mv ./src/images ./dist/images",
+    "move-images": "mv ./src/images ./dist/ && mv ./design/preview.webp ./dist/images",
     "move-audios": "mv ./src/audio ./dist/audio",
     "build": "npm run bundle-js && npm run minify-html && npm run minify-css && npm run move-images && npm run move-audios"
   },
