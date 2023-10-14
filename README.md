@@ -5,15 +5,17 @@
 <br>
 <br>
 
-<h3>❝Experience binary search trees in action with interactive demonstrations❞</h3>
+**❝** Experience binary search trees in action with interactive demonstrations **❞**
 
 <br>
   <p>
+    ❯ &nbsp;
     <a href="https://binary-search-trees.vercel.app/">View Demo</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/0xabdulkhalid/binary-search-trees/issues">Report Bug</a>
     &nbsp;·&nbsp;
     <a href="https://github.com/0xabdulkhalid/binary-search-trees/issues">Request Feature</a>
+     &nbsp; ❮
   </p>
 </div>
 
