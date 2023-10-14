@@ -382,8 +382,18 @@ footer {
     width: min(95%, 60rem);
   }
 
+  h1 {
+    padding: unset;
+    text-align: center;
+  }
+
   .header--active > h1 {
     font-size: 1.7rem;
+  }
+
+  .header--active > button {
+    right: 1.5rem;
+    top: 1.4rem;
   }
 
   form > :is(fieldset, div) {
