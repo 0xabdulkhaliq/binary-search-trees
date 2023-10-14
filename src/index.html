@@ -69,10 +69,7 @@
       sizes="any"
       type="image/svg+xml"
     />
-    <link 
-      rel="canonical" 
-      href="https://binary-search-trees.vercel.app/"
-    >
+    <link rel="canonical" href="https://binary-search-trees.vercel.app/" />
   </head>
   <body>
     <header>
@@ -102,7 +99,7 @@
         <fieldset>
           <h2>Input</h2>
 
-          <label for="numbers">
+          <label for="numbers" id="1">
             Enter numbers followed by spaces :
             <input
               type="text"
@@ -112,10 +109,10 @@
               pattern="^[0-9\s]+$"
             />
 
-            <button class="label__action-btn"></button>
+            <button class="label__action-btn" aria-labelledby="1"></button>
           </label>
 
-          <label for="insert-number">
+          <label for="insert-number" id="2">
             Insert number :
             <input
               type="text"
@@ -124,10 +121,10 @@
               pattern="\d+"
             />
 
-            <button class="label__action-btn"></button>
+            <button class="label__action-btn" aria-labelledby="2"></button>
           </label>
 
-          <label for="remove-number">
+          <label for="remove-number" id="3">
             Remove Number :
             <input
               type="text"
@@ -136,10 +133,10 @@
               pattern="\d+"
             />
 
-            <button class="label__action-btn"></button>
+            <button class="label__action-btn" aria-labelledby="3"></button>
           </label>
 
-          <label for="find-number">
+          <label for="find-number" id="4">
             Find & View Depth of a Number
             <input
               type="text"
@@ -148,7 +145,7 @@
               pattern="\d+"
             />
 
-            <button class="label__action-btn"></button>
+            <button class="label__action-btn" aria-labelledby="4"></button>
           </label>
 
           <label for="rebalance-tree"
