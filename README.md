@@ -12,15 +12,41 @@
 
 <br>
 
-## Links
+## Installation
 
-- |||
-  | :----- | :----- |
-  | Live Demo: | [https://binary-search-trees.vercel.app/](https://binary-search-trees.vercel.app/)  |
-  |||
+> [!NOTE]  
+> If you prefer not to install it locally, you can also access the [live demo](https://binary-search-trees.vercel.app/)  version
 
+
+To set up the BST Application locally, follow these steps:
+
+1. Clone the GitHub repository to your local machine:
+
+   ```bash
+   git clone https://github.com/0xabdulkhalid/binary-search-trees.git
+   ```
+
+2. Navigate to the project's directory:
+
+   ```bash
+   cd binary-search-trees
+   ```
+
+3. Install the project's dependencies using npm:
+
+   ```bash
+   npm install
+   ```
+
+4. Build the project to bundle JavaScript, minify HTML and CSS, and move images:
+
+   ```bash
+   npm run build
+   ```
+5. The build files can be found on `dist` (distribution) directory.
 
 <br>
+
 
 ## Features
 
@@ -50,34 +76,16 @@
 
 <br>
 
-## Installation
-
-To set up the BST Application locally, follow these steps:
-
-1. Clone the GitHub repository to your local machine:
-
-   ```bash
-   git clone https://github.com/0xabdulkhalid/binary-search-trees.git
-   ```
-
-2. Navigate to the project's directory:
-
-   ```bash
-   cd binary-search-trees
-   ```
-
-3. Install the project's dependencies using npm:
-
-   ```bash
-   npm install
-   ```
-
-4. Build the project to bundle JavaScript, minify HTML and CSS, and move images:
-
-   ```bash
-   npm run build
-   ```
-5. The build files can be found on `dist` (distribution) directory.
+## Pagespeed Insights Score
+  
+- ||
+  | :-----: |
+  |  <b>Overall Score 98.6%, Average of Mobile and Desktop</b><br>[ Mobile devices score is only shown below ] |
+  | |
+  | <img src='./design/pagespeed-insights-score.svg' alt='Scoreboard'> |
+  | |
+  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-binary-search-trees-vercel-app/9pwcrhbes0?form_factor=mobile) to get live score |
+  ||
 
 <br>
 
