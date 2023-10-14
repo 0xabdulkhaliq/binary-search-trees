@@ -383,8 +383,8 @@ footer {
   }
 
   h1 {
-    padding: unset;
-    text-align: center;
+    padding: unset !important;
+    text-align: center !important;
   }
 
   .header--active > h1 {
