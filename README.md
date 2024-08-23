@@ -12,9 +12,9 @@
     ❯ &nbsp;
     <a href="https://binary-search-trees.vercel.app/">View Demo</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/0xabdulkhalid/binary-search-trees/issues">Report Bug</a>
+    <a href="https://github.com/0xabdulkhaliq/binary-search-trees/issues">Report Bug</a>
     &nbsp;·&nbsp;
-    <a href="https://github.com/0xabdulkhalid/binary-search-trees/issues">Request Feature</a>
+    <a href="https://github.com/0xabdulkhaliq/binary-search-trees/issues">Request Feature</a>
      &nbsp; ❮
   </p>
 </div>
@@ -38,7 +38,7 @@ To set up the BST Application locally, follow these steps:
 1. Clone the GitHub repository to your local machine:
 
    ```bash
-   git clone https://github.com/0xabdulkhalid/binary-search-trees.git
+   git clone https://github.com/0xabdulkhaliq/binary-search-trees.git
    ```
 
 2. Navigate to the project's directory:
@@ -95,11 +95,11 @@ To set up the BST Application locally, follow these steps:
   
 - ||
   | :-----: |
-  |  <b>Overall Score 98.6%, Average of Mobile and Desktop</b><br>[ Mobile devices score is only shown below ] |
+  |  <b>Overall Score 98.5%, Average of Mobile and Desktop</b><br>[ Mobile devices score is only shown below ] |
   | |
   | <img src='./design/pagespeed-insights-score.svg' alt='Scoreboard'> |
   | |
-  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-binary-search-trees-vercel-app/9pwcrhbes0?form_factor=mobile) to get live score |
+  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fbinary-search-trees.vercel.app%2F) to get live score |
   ||
 
 <br>
@@ -128,15 +128,15 @@ To set up the BST Application locally, follow these steps:
 
 <div align=center>
 
-  <a href="https://linkedin.com/in/0xabdulkhalid" >
+  <a href="https://linkedin.com/in/0xabdulkhaliq" >
     <img src="https://img.shields.io/badge/linkedin%20Profile-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Profile">
   </a>&nbsp;&nbsp;
 
-  <a href="mailto:0xabdulkhalid@gmail.com" target="_blank">
+  <a href="mailto:0xabdulkhaliq@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/gmail-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt=mail/>
   </a>&nbsp;&nbsp;
 
-  <a href="https://www.github.com/0xabdulkhalid/" >
+  <a href="https://www.github.com/0xabdulkhaliq/" >
     <img src="https://img.shields.io/badge/Github%20Profile-131313?style=for-the-badge&logo=github&logoColor=white" alt="Github Profile">
   </a>
 
